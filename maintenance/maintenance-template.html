@@ -216,21 +216,11 @@
   @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
   body {
-    font-family: 'Open Sans';
-    text-align: center;
-    overflow: hidden;
+    font-family: 'Open Sans' !important;
+    text-align: center !important;
+    overflow: hidden !important;
   }
 
-  .content {margin-bottom: 5%;}
-  svg {height: 70px; width: 220px;}
-  h1 {font-size: 33px; margin: 20px 0 0;}
-  p {font-size: 15px; line-height: 23px;}
-  a {
-    color: #777;
-    text-decoration: underline;
-    white-space: nowrap;
-  }
-  a:hover {text-decoration: none;}
   .maintenance-wrapper {
     background: #f6f6f6;
     display: flex;
@@ -242,5 +232,18 @@
     top: 0;
     bottom: 0;
     padding: 10px;
+  }
+  
+  .maintenance-wrapper .content {margin-bottom: 5%;}
+  .maintenance-wrapper svg {height: 70px; width: 220px;}
+  .maintenance-wrapper h1 {font-size: 33px; margin: 20px 0 0;}
+  .maintenance-wrapper p {font-size: 15px; line-height: 23px;}
+  .maintenance-wrapper a {
+    color: #777 !important;
+    text-decoration: underline !important;
+    white-space: nowrap;
+  }
+  .maintenance-wrapper a:hover {
+    text-decoration: none !important;
   }
 </style>
